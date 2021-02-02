@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true, //Raise error on expressions and declarations with an implied any type.
+    "noEmitOnError": true, //Do not emit outputs if any errors were reported.
+    "sourceMap": true, //Generates corresponding .map file.
+    "target": "es6" //Specify ECMAScript target version
+  },
+  "files": [ "./app.ts" ],
+  "compileOnSave": true //just compile on save ctrl + s
+}
